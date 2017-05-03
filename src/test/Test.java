@@ -27,7 +27,11 @@ public class Test {
 
 	public static void main(String[] args) throws IOException, ParseException {
 		
-		 datetest();
+//		 datetest();
+		
+		System.out.println("sss".contains("12"));
+		System.out.println("1234".contains("12"));
+		System.out.println("1234".indexOf("12"));
 		
 		
 //		String idcard,idcardencode;

@@ -1,0 +1,35 @@
+
+
+/xjk/html/healthdata/bloodpressuredata.jsp ?phone=phonevalue&name=namevalue&gender=gendervalue&birth=birthvalue
+
+   <script language="javascript" for="window" event="onload">   
+   alert("1");
+   alert(window.location.href);   
+   //alert(window.location);   
+  // alert(location.href);   
+   //alert(parent.location.href);   
+  // alert(top.location.href);   
+ //  alert(document.location.href); 
+ //  alert(document.URL);
+
+//String name = request.getParameter("name");//用request得到 
+ //  name= java.net.URLDecoder.decode(getRequest().getParameter("name"),"UTF-8");
+  alert(name);
+  alert("2");
+  
+</script>  
+    
+    
+</head>
+<body bgcolor="#f3f5f7">
+
+<body>
+phone:${param.phone}
+name:${param.name}
+gender:${param.gender}
+birth:${param.birth}
+
+</body> 
+
+url 传参数问题
+	name = new String(voAccount.getRealName().getBytes("UTF-8"),"ISO8859-1");
