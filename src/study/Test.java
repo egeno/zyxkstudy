@@ -8,6 +8,10 @@ import java.util.Date;
 public class Test {
 	public static void main(String[] args) {
 		
+	
+		
+		
+		
 		String time_end="201702230079";
 		
 		
@@ -15,7 +19,7 @@ public class Test {
 //		String dateStr = "2010/05/04 12:34:23";  
 		String dateStr = "20170222165228";  
         Date date = new Date();  
-        //注意format的格式要与日期String的格式相匹配  
+        //注锟斤拷format锟侥革拷式要锟斤拷锟斤拷锟斤拷String锟侥革拷式锟斤拷匹锟斤拷  
         DateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");  
         try {  
             date = sdf.parse(dateStr);  
@@ -27,10 +31,10 @@ public class Test {
 		
 		
 		
-        Long time = date.getTime();//Long类型变量
+        Long time = date.getTime();//Long锟斤拷锟酵憋拷锟斤拷
 		
 		Timestamp timestamp= new Timestamp(time);
-		
+//		
 		
 		
 		

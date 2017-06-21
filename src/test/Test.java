@@ -1,11 +1,15 @@
 package test;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
 
 import javax.print.attribute.DateTimeSyntax;
+
+import org.apache.commons.lang.ArrayUtils;
 
 import utils.DateCalcUtils;
 import utils.StringUtils;
@@ -29,9 +33,38 @@ public class Test {
 		
 //		 datetest();
 		
-		System.out.println("sss".contains("12"));
-		System.out.println("1234".contains("12"));
-		System.out.println("1234".indexOf("12"));
+		
+		String domain="xk.360jky.com,baidu.com";
+		
+		String[] parm=domain.split(",");//{$Xk}
+		
+		System.err.println(Arrays.toString(parm));
+		//Arrays.asList(arr).contains(targetValue);
+		
+//		Set<String> set = new HashSet<String>(Arrays.asList(arr));
+//		 returnset.contains(targetValue);
+		
+//		System.err.println(ArrayUtils.contains(parm,"xk.360jky.com"));
+		
+		
+		boolean isContainDomain=false;
+		if (!isContainDomain) {
+			
+			System.err.println("xx");
+		}
+		
+		
+		
+		
+		
+		
+		
+//		System.out.println("sss".contains("12"));
+//		System.out.println("1234".contains("12"));
+//		System.out.println("1234".indexOf("12"));
+//		
+//		System.out.println(new BigDecimal(123456789.01).toString());  
+//        System.out.println(new BigDecimal("123456789.01").toString());  
 		
 		
 //		String idcard,idcardencode;
